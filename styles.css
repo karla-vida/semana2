@@ -3,17 +3,14 @@ body {
    
     box-sizing: border-box;
   margin: 0;
-  padding: 0;
-  
+  padding: 0; 
 }
-
 
 .menu {
     display: flex;
     background: orange;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
 ul {
@@ -68,15 +65,12 @@ section {
         width: 100%;
     display: inline-block;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-
-
 }
 
 .conteiner {
     display: flex;
     flex-direction: row;
-    margin: 80px;
-    
+    margin: 80px;   
 }
 
 .conteinerColumn{
@@ -100,20 +94,20 @@ img.evento {
     overflow: hidden;
     margin: 0 auto;
     display: block;
-
 }
-
 
 .eventoTexto{
     display: flex;
-    flex-direction: column
-    
+    flex-direction: column  
 }
 
+.formaDeContato {
+display: flex;
+flex-direction: column;
+}
 
 @media screen and (max-width: 768px){
     .conteinerLista {
       flex-direction: column;          
-    }
-       
+    }      
 }
